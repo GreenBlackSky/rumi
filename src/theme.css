@@ -1,0 +1,11 @@
+/* Rumi's own colour (voice app). The rest of the palette comes from the
+   engine (@greenblacksky/honmoon/styles.css); this only sets the accent — violet — for
+   light and dark. Loaded after the engine's stylesheet, so these win. */
+:root {
+  --accent-l: #6a3cc8;
+  --accent-ink-l: #ffffff;
+  --accent-soft-l: #e6dbfa;
+  --accent-d: #b88cff;
+  --accent-ink-d: #160b26;
+  --accent-soft-d: #2e2047;
+}
