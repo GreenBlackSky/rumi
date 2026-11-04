@@ -1,6 +1,14 @@
 <!-- Finds your comfortable range: down until it stops being easy, then up the same way. -->
 <script lang="ts">
-  import { freqOfSounding, go, holdNote, holdStop, midiName, nav, vRange } from '@greenblacksky/honmoon';
+  import {
+    freqOfSounding,
+    go,
+    holdNote,
+    holdStop,
+    midiName,
+    nav,
+    vRange,
+  } from '@greenblacksky/honmoon';
   import {
     RANGE_HIGHEST,
     RANGE_LOWEST,
